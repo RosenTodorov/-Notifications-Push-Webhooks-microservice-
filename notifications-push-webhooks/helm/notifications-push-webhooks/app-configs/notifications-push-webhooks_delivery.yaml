@@ -1,0 +1,8 @@
+# Values used for the deployed application.
+service:
+  name: notifications-push-webhooks
+env:
+  LOG_LEVEL: INFO
+  APP_NAME: notifications-push-webhooks
+  Q_GROUP: notificationsPushWebhooks
+  Q_READ_TOPIC: PostPublicationEvents
